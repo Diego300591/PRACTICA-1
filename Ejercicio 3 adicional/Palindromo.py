@@ -1,4 +1,5 @@
 def es_palindromo(cadena):
+	cadena=str(cadena)
 	longitud=len(cadena)
 	longitud=int(longitud)
 	tam=longitud-1
@@ -7,10 +8,9 @@ def es_palindromo(cadena):
 		cadena1=cadena1+cadena[tam]
 		tam=tam-1
 	if cadena1==cadena:
-		return True
+		print True
 	else:
-		return False
+		print False
 cad=raw_input("Ingrese una cadena ")
-cad=str(cad)
 aux=es_palindromo(cad)
-print aux
+
