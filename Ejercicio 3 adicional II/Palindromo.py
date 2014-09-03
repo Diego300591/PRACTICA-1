@@ -12,8 +12,8 @@ def es_palindromo(cadena):
 		resultado=True
 	else:
 		resultado=False
-	return resultado
+	print resultado
 cad=raw_input("Ingrese una cadena ")
 aux=es_palindromo(cad)
-print aux
+
 
